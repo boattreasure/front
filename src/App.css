@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap");
+
+:root {
+  --primary: #f5f5f5;
+  --secendary: #e0e7ff;
+  --action: #8667f2;
+  --chip: #fcd265;
+  --delete: #ff0000;
+  --errorMessageForm: red;
+}
+* {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 10%;
+  height: 100%;
+  font-size: 62.5%;
+}
+html {
+  min-height: 100%; /* make sure it is at least as tall as the viewport */
+  position: relative;
+  overflow-y: scroll;
+}
+
+.mainHome {
+  height: 100%;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.bgImgHome {
+  background-image: url("./images/homeImgV2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: -1;
+  width: 80vw;
+  height: 100vh;
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.wrap-offersPage {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+.defaultBox {
+  background-color: var(--secendary);
+  border-radius: 1.5rem;
+}
+.content-offersPage {
+  display: flex;
+}
+.offer_page {
+  font-size: 1rem;
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+.offer_page h1 {
+  margin-top: 2rem;
+}
+.offer_btn {
+  margin-top: 3rem;
+}
+
+.company_page {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.company_page_jobs {
+  margin-top: 2rem;
+}
+
+.offer_compOverview {
+  width: 60%;
+}
+
+.bgImgRegister,
+.bgImgLogin {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+  width: 50vw;
+  height: 100vh;
+}
+.bgImgRegister {
+  background-image: url("./images/registration.png");
+}
+.bgImgLogin {
+  background-image: url("./images/login.png");
+}
+
+.account_page_content {
+  background-color: var(--secendary);
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.account_page_boxRad {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--secendary);
+}
+
+/* ProfilePage */
+.profilePage_wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 5rem;
+  background-color: var(--secendary);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.profilePage_personalData {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profilePage_personalData_box {
+  display: flex;
+  gap: 3rem;
+}
+
+.profilePage_personalData_box img {
+  width: 13rem;
+  height: 13rem;
+  background-size: contain;
+  border-radius: 15px;
+}
+
+.profilePage_personalData_box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.profilePage_personalData_name {
+  font-size: 1.8rem;
+}
+
+.profilePage_personalData_about {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.profilePage_line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: relative;
+  margin: 1rem 0;
+}
+
+.square {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: black;
+  transform: rotate(45deg);
+  top: -2px;
+}
+
+.square_end {
+  right: 0;
+}
+
+.profilePage_skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.profilePage_title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.profilePage_skill_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.profilePage_courses ul {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+
+.profilePage_education_box {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.profilePage_projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fs {
+  align-self: flex-start;
+}
+
+.profilePage_projects_box {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 1rem;
+}
+.profilePage_back {
+  font-size: 1.2rem;
+  padding: 15px;
+}
+.profilePage_back:hover {
+  cursor: pointer;
+  color: var(--action);
+}

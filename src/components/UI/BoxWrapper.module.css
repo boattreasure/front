@@ -1,0 +1,8 @@
+.box {
+  background-color: var(--secendary);
+  border-radius: 20px;
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}

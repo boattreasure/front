@@ -1,0 +1,19 @@
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+.box {
+  width: 40vw;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.content {
+  font-size: 1.4rem;
+}

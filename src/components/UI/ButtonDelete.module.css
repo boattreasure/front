@@ -1,0 +1,20 @@
+.btnDelete_wrap {
+  width: 2rem;
+  height: 2rem;
+  padding: 0.3rem;
+  border: solid 0.2rem var(--delete);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.deleteColor {
+  color: var(--delete);
+  font-size: 1.8rem;
+}
+
+.btnDelete_wrap:hover {
+  cursor: pointer;
+}

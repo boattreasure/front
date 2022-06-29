@@ -1,0 +1,23 @@
+.chip {
+  padding: 0.5rem 1rem;
+  background-color: var(--chip);
+  color: var(--primary);
+  max-width: 100%;
+  color: black;
+  border-radius: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+.ml {
+  margin-left: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ml:hover {
+  cursor: pointer;
+}
